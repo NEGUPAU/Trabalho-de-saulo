@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - chao
   - Chao
   - Vitoria
+  - Enemy
   layers:
   - Default
   - TransparentFX
