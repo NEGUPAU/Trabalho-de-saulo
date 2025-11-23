@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6669311229822799143}
   - component: {fileID: 4798663891155299778}
   - component: {fileID: 6436879267134154798}
-  - component: {fileID: 7185564022603633120}
   - component: {fileID: 9158000250134257822}
   - component: {fileID: 140337923511078885}
   m_Layer: 0
@@ -141,24 +140,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7185564022603633120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9184285905691466173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8ddf833ea43234e92b1f96c3390d12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanciaDeVisao: 5
-  velocidade: 4.5
-  pontosDePatrulha:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &9158000250134257822
 MonoBehaviour:
   m_ObjectHideFlags: 0
