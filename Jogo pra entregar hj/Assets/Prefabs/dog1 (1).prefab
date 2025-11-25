@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5938922739046577256}
   - component: {fileID: 4792392695573843376}
   - component: {fileID: 2643944479981834964}
-  - component: {fileID: 551888623564002105}
+  - component: {fileID: 2575547757536585243}
   m_Layer: 0
   m_Name: dog1 (1)
   m_TagString: Enemy
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b96f6d0b74729e4da18929f7060aecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &551888623564002105
+--- !u!114 &2575547757536585243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,5 +211,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fb32eb5c764ef64ba972cef6cc55ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanciaDeVisao: 2
-  velocidade: 4
+  distanciaDeVisao: 10
+  velocidade: 5
