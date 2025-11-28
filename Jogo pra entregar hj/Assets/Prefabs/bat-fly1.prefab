@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6436879267134154798}
   - component: {fileID: 9158000250134257822}
   - component: {fileID: 140337923511078885}
+  - component: {fileID: 6467760324563073560}
   m_Layer: 0
   m_Name: bat-fly1
   m_TagString: Enemy
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 9184285905691466173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.9, y: -2.67, z: 0}
+  m_LocalPosition: {x: 89.57183, y: -3.8936462, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -188,3 +189,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.285
+--- !u!114 &6467760324563073560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184285905691466173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8ddf833ea43234e92b1f96c3390d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaDeVisao: 5
+  velocidade: 3
+  pontosDePatrulha: []

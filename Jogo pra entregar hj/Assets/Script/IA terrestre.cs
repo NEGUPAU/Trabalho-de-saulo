@@ -12,10 +12,14 @@ public class Inimigo : MonoBehaviour
     public float velocidade = 5;
     
     
+    private bool andando;
+    private Animator animator;
+    
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         
         // player = GameObject.Find("Player");
         player = GameObject.FindGameObjectWithTag("Player");
@@ -24,6 +28,8 @@ public class Inimigo : MonoBehaviour
    
     void Update()
     {
+        andando = false;
+        
         if (player != null)
         {
             //posição do player
@@ -35,6 +41,8 @@ public class Inimigo : MonoBehaviour
             {
                 transform.position += Vector3.right * velocidade * Time.deltaTime;
                 spriteRenderer.flipX = true;
+                
+                andando = true;
             }
             
             //esquerda
@@ -43,9 +51,11 @@ public class Inimigo : MonoBehaviour
             {
                 transform.position -= Vector3.right * velocidade * Time.deltaTime;
                 spriteRenderer.flipX = false;
+                
+                 andando = true;
             }
-
         }
 
+        animator.SetBool("Andando", andando);
     }
 }
